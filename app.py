@@ -27,7 +27,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 # 2. Game Data
 questions = [
     {
-        "prompt": "What did I order at Elena's for our first date?",
+        "prompt": "What did I order at Elena's on our first date?",
         "options": ["Vanilla with hot fudge, oreos, and sprinkles in a cup",
                     "Chocolate and vanilla swirl with oreos in a cup",
                     "Vanilla with hot fudge and oreos in a cup",
@@ -62,6 +62,20 @@ questions = [
         "answer": "South Carolina",
         "success": "Correct! I'm from the South just like you!!! - Benji"
     },
+
+    {
+        "prompt": "What did you totally change my mind on this year?
+        "options": ["Small talk", "Eggplants", "Olives", "Being late"],
+        "answer": "Olives",
+        "success": "Correct! But kalamata olives are still disgusting 🤮"
+    },
+
+    {
+        "prompt": "I used many tactics to try to get close to you in the beginning. Which one of these were NOT one of the tactics?"
+        "options": ["Benji", "Connect 4", "Insect Bite Healer", "Buying you lemonade"],
+        "answer": "Buying you lemonade",
+        "success": "Correct! I never tried to bribe you"
+    },    
 
     {
         "prompt": "What clogged the shower in Vermont?",
