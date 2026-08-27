@@ -100,7 +100,7 @@ import base64
 
 # 1. Read the image and convert it to a web-friendly text format
 # MAKE SURE to change "your_icon.png" to your exact file name!
-with open("your_icon.png", "rb") as image_file:
+with open("jqsoph.png", "rb") as image_file:
     encoded_img = base64.b64encode(image_file.read()).decode()
 
 # 2. Inject it directly into the title HTML so it sits perfectly inline
