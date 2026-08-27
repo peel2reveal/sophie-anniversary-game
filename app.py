@@ -33,14 +33,14 @@ questions = [
                     "Vanilla with hot fudge and oreos in a cup",
                     "Chocolate and vanilla swirl with hot fudge and oreos in a waffle cone"],
         "answer": "Vanilla with hot fudge and oreos in a cup",
-        "success": "Correct! This is my go to order and tasted so much better with you"
+        "success": "Correct! This is my go to order and it always tastes so much better when I'm with you!"
 
     },
     {
         "prompt": "What did we make when we had our first sleepover together?",
         "options": ["Pancakes", "Fried green tomatoes", "Quiche", "Ice cream french toast"],
         "answer": "Quiche",
-        "success": "Correct! You made me caramalize the onions for what seemed like hours. And then you had a crash out over the quiche"
+        "success": "Correct! You made me caramalize the onions for what seemed like hours. And then you had a crash out over the quiche."
     },
 
     {"prompt": "Where was our first overnight trip away together?",
@@ -53,7 +53,7 @@ questions = [
         "prompt": "The night it all began, what drink did you buy me at Cadillac Ranch?",
         "options": ["Coke Zero", "Sprite", "Seltzer", "Chocolate Milk"],
         "answer": "Sprite",
-        "success": "Correct! You insisted on buying me a drink and that's when I knew my master plan worked and you liked me"
+        "success": "Correct! You insisted on buying me a drink and that's when I knew my master plan worked and you liked me."
     },
 
     {
@@ -74,21 +74,21 @@ questions = [
         "prompt": "I used many tactics to try to get close to you in the beginning. Which one of these were NOT one of the tactics?",
         "options": ["Benji", "Connect 4", "Insect Bite Healer", "Buying you lemonade"],
         "answer": "Buying you lemonade",
-        "success": "Correct! I never tried to bribe you"
+        "success": "Correct! I never tried to bribe you."
     },    
 
     {
         "prompt": "What clogged the shower in Vermont?",
         "options": ["Nothing, the plumbing sucked", "The knife tip that broke off", "Our chili", "Marshmallows"],
         "answer": "Our chili",
-        "success": "Correct! I'm almost positive if we didn't make that chili, none of that would've happened"
+        "success": "Correct! I'm almost positive if we didn't make that chili, none of that would've happened."
     },
 
     {
         "prompt": "You gave a restuarant a lower rating because they didn't have this one dish:",
         "options": ["Dessert", "Eggplant", "Vegetarian dumplings", "Calamari"],
         "answer": "Eggplant",
-        "success": "Correct! I admire your love for eggplant"
+        "success": "Correct! I admire your love for eggplant."
 
     },
 
