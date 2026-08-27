@@ -1,6 +1,7 @@
 import streamlit as st
 
-
+# 1. page config (This MUST be the very first command!)
+st.set_page_config(page_title="Anniversary Trivia", page_icon="❤️", layout="centered")
 
 # Hide Streamlit default marks, Cloud hosting badges, and top-right developer icons
 hide_default_format = """
@@ -15,18 +16,8 @@ hide_default_format = """
        .viewerBadge_link {display: none !important;}
        </style>
        """
-
-
-# 1. page config
-st.set_page_config(page_title="Anniversary Trivia", page_icon="❤️", layout="centered")
-# Hide Streamlit default marks
-hide_default_format = """
-       <style>
-       #MainMenu {visibility: hidden; }
-       footer {visibility: hidden;}
-       </style>
-       """
 st.markdown(hide_default_format, unsafe_allow_html=True)
+
 
 
 # 2. Game Data
