@@ -40,7 +40,7 @@ questions = [
         "prompt": "What did we make when we had our first sleepover together?",
         "options": ["Pancakes", "Fried green tomatoes", "Quiche", "Ice cream french toast"],
         "answer": "Quiche",
-        "success": "Correct! You made me caramlized onions for what seemed like hours. And then you had a crash out over the quiche"
+        "success": "Correct! You made me caramalize the onions for what seemed like hours. And then you had a crash out over the quiche"
     },
 
     {"prompt": "Where was our first overnight trip away together?",
