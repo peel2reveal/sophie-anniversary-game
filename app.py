@@ -96,9 +96,22 @@ if "answered" not in st.session_state:
 current_index = st.session_state.current_q
 
 # title header
-st.title("One Year Anniversary Trivia 🏆")
+# title header
+title_col, icon_col = st.columns([5, 1])
+
+with title_col:
+    st.title("One Year Anniversary Trivia")
+
+with icon_col:
+    # The <br> tag pushes the image down slightly so it aligns with the text
+    st.markdown("<br>", unsafe_allow_html=True) 
+    
+    # 45 pixels is standard emoji size, but you can adjust this number!
+    st.image("IMG_4529.png", width=45) 
+
 st.markdown("---")
-st.image("benji.png",width=300)
+st.image("benji.png", width=300)
+
 
 # check if game is finished
 if current_index >= len(questions):
