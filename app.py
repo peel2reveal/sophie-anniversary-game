@@ -50,7 +50,7 @@ questions = [
      },
 
     {
-        "prompt": "What drink did you buy me at Cadillac Ranch before we first ;)",
+        "prompt": "The night it all began, what drink did you buy me at Cadillac Ranch?",
         "options": ["Coke Zero", "Sprite", "Seltzer", "Chocolate Milk"],
         "answer": "Sprite",
         "success": "Correct! You insisted on buying me a drink and that's when I knew my master plan worked and you liked me"
@@ -92,6 +92,7 @@ questions = [
 
     },
 
+       
     {
         "prompt": "There are exactly 525,600 minutes in a year. Are you ready to see some of my favorite ones?",
         "options": ["Yes!", "Yes!", "Yes!", "Yes!"],
