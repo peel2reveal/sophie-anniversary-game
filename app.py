@@ -1,5 +1,16 @@
 import streamlit as st
 
+# Hide Streamlit default marks and the bottom-right Cloud badge
+hide_default_format = """
+       <style>
+       #MainMenu {visibility: hidden;}
+       footer {visibility: hidden;}
+       .viewerBadge_container {display: none !important;}
+       </style>
+       """
+st.markdown(hide_default_format, unsafe_allow_html=True)
+
+
 # 1. page config
 st.set_page_config(page_title="Anniversary Trivia", page_icon="❤️", layout="centered")
 # Hide Streamlit default marks
