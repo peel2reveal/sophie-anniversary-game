@@ -1,6 +1,22 @@
 import streamlit as st
 
 
+
+# Hide Streamlit default marks, Cloud hosting badges, and top-right developer icons
+hide_default_format = """
+       <style>
+       #MainMenu {visibility: hidden;}
+       footer {visibility: hidden;}
+       header {visibility: hidden;}
+       [data-testid="stToolbar"] {visibility: hidden !important;}
+       [data-testid="stViewerBadge"] {display: none !important;}
+       [data-testid="stDecoration"] {display: none !important;}
+       .viewerBadge_container {display: none !important;}
+       .viewerBadge_link {display: none !important;}
+       </style>
+       """
+
+
 # 1. page config
 st.set_page_config(page_title="Anniversary Trivia", page_icon="❤️", layout="centered")
 # Hide Streamlit default marks
