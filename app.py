@@ -3,9 +3,15 @@ import streamlit as st
 # 1. page config (This MUST be the very first command!)
 st.set_page_config(page_title="Anniversary Trivia", page_icon="❤️", layout="centered")
 
-# Hide Streamlit default marks, Cloud hosting badges, and top-right developer icons
+# Hide Streamlit default marks, Cloud hosting badges, and inject custom font
 hide_default_format = """
        <style>
+       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+       
+       html, body, [class*="css"] {
+           font-family: 'Playfair Display', serif !important;
+       }
+       
        #MainMenu {visibility: hidden;}
        footer {visibility: hidden;}
        header {visibility: hidden;}
@@ -17,7 +23,6 @@ hide_default_format = """
        </style>
        """
 st.markdown(hide_default_format, unsafe_allow_html=True)
-
 
 
 # 2. Game Data
