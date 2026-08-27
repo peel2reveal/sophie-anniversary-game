@@ -95,22 +95,28 @@ if "answered" not in st.session_state:
 
 current_index = st.session_state.current_q
 
-# title header
-# title header
-title_col, icon_col = st.columns([5, 1])
+#title
+import base64
 
-with title_col:
-    st.title("One Year Anniversary Trivia")
+# 1. Read the image and convert it to a web-friendly text format
+# MAKE SURE to change "your_icon.png" to your exact file name!
+with open("your_icon.png", "rb") as image_file:
+    encoded_img = base64.b64encode(image_file.read()).decode()
 
-with icon_col:
-    # The <br> tag pushes the image down slightly so it aligns with the text
-    st.markdown("<br>", unsafe_allow_html=True) 
-    
-    # 45 pixels is standard emoji size, but you can adjust this number!
-    st.image("IMG_4529.png", width=45) 
+# 2. Inject it directly into the title HTML so it sits perfectly inline
+st.markdown(
+    f"""
+    <h1 style='display: flex; align-items: center;'>
+        One Year Anniversary Trivia 
+        <img src='data:image/png;base64,{encoded_img}' width='45' style='margin-left: 12px;'>
+    </h1>
+    """, 
+    unsafe_allow_html=True
+)
 
 st.markdown("---")
 st.image("benji.png", width=300)
+
 
 
 # check if game is finished
