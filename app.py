@@ -64,14 +64,14 @@ questions = [
     },
 
     {
-        "prompt": "What did you totally change my mind on this year?
+        "prompt": "What did you totally change my mind on this year?",
         "options": ["Small talk", "Eggplants", "Olives", "Being late"],
         "answer": "Olives",
         "success": "Correct! But kalamata olives are still disgusting 🤮"
     },
 
     {
-        "prompt": "I used many tactics to try to get close to you in the beginning. Which one of these were NOT one of the tactics?"
+        "prompt": "I used many tactics to try to get close to you in the beginning. Which one of these were NOT one of the tactics?",
         "options": ["Benji", "Connect 4", "Insect Bite Healer", "Buying you lemonade"],
         "answer": "Buying you lemonade",
         "success": "Correct! I never tried to bribe you"
