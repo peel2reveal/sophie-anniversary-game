@@ -2,17 +2,23 @@ import streamlit as st
 
 # 1. page config (This MUST be the very first command!)
 st.set_page_config(page_title="Anniversary Trivia", page_icon="❤️", layout="centered")
-
 # Hide Streamlit default marks and inject custom font
 custom_css = """
        <style>
-       @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
        
        html, body, [class*="css"] {
-           font-family: 'Lora', serif !important;
+           font-family: 'Quicksand', sans-serif !important;
        }
+       
        #MainMenu {visibility: hidden;}
        footer {visibility: hidden;}
+       header {visibility: hidden;}
+       [data-testid="stToolbar"] {visibility: hidden !important;}
+       [data-testid="stViewerBadge"] {display: none !important;}
+       [data-testid="stDecoration"] {display: none !important;}
+       .viewerBadge_container {display: none !important;}
+       .viewerBadge_link {display: none !important;}
        </style>
        """
 st.markdown(custom_css, unsafe_allow_html=True)
