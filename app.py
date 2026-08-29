@@ -51,7 +51,7 @@ questions = [
 
     {
         "prompt": "The night it all began, what drink did you buy me at Cadillac Ranch?",
-        "options": ["Coke Zero", "Sprite", "Seltzer", "Chocolate Milk"],
+        "options": ["Coke Zero", "Sprite", "Seltzer", "Diet Coke"],
         "answer": "Sprite",
         "success": "Correct! You insisted on buying me a drink and that's when I knew my master plan worked and you liked me."
     },
