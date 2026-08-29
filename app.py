@@ -85,8 +85,8 @@ questions = [
     },
 
     {
-        "prompt": "You gave a restuarant a lower rating because they didn't have this one dish:",
-        "options": ["Dessert", "Eggplant", "Vegetarian dumplings", "Calamari"],
+        "prompt": "Our first dinner out together, you gave the restuarant a lower rating because they didn't have this one dish:",
+        "options": ["French Onion Soup", "Eggplant", "Vegetarian dumplings", "Calamari"],
         "answer": "Eggplant",
         "success": "Correct! I admire your love for eggplant."
 
