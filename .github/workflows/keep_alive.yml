@@ -2,13 +2,13 @@ name: Keep Streamlit App Alive
 
 on:
   schedule:
-    # Runs at 00:00 UTC every Wednesday (Once a week)
-    - cron: '0 0 * * 3'
+    # Runs at 00:00 UTC every single day
+    - cron: '0 0 * * *'
   workflow_dispatch: # Allows you to trigger this manually
 
 jobs:
   keep_alive:
-    runs-lines: ubuntu-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
@@ -19,5 +19,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@://github.com"
-          git commit --allow-empty -m "Chore: Keep-alive ping for Streamlit Cloud"
+          git commit --allow-empty -m "Chore: Daily keep-alive ping"
           git push
