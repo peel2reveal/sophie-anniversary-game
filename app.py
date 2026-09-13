@@ -140,7 +140,7 @@ if current_index >= len(questions):
     st.markdown("### REWARD UNLOCKED")
 
     # video link
-    video_url = "https://www.youtube.com/watch?v=rDHdv1gzLt4"
+    video_url = "https://drive.google.com/file/d/1yPea8H5f5ZwftE_IEbK01Hu0QGSOVnA7/view?usp=share_link"
 
     # FIXED: Handed the video_url directly to the button so it knows where to redirect
     st.link_button("Gimme my reward", video_url)
